@@ -38,6 +38,7 @@ Follow these steps to set up the project locally:
 
    ```bash
    npm install
+   npm install aos
 
 4. Start the development server:
 
