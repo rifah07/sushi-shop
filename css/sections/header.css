@@ -1,7 +1,6 @@
 .header__nav {
   display: flex;
   overflow: hidden;
-  text-decoration: none;
 }
 
 .header__logo {
@@ -32,14 +31,12 @@
   opacity: 0.8;
 }
 
-.header__menu,
-.header__menu-mobile {
+.header__menu, .header__menu-mobile {
   padding: 20px;
-
-  flex: 1.235;
+  flex: 1.236;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   gap: 64px;
 
   list-style: none;
@@ -47,11 +44,11 @@
 
 .header__menu li {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
   cursor: pointer;
 }
 
